@@ -35,9 +35,6 @@
         }
     </div>
     <div id="background">
-        #background {
-            height: 725px;
-        }
         body {
             background-color: #fcfbfb; 
             color: #090909;
@@ -60,6 +57,7 @@
             color: #090909;
         }
         #background{
+            height: 725px;
             background-color: rgb(244, 199, 243);
             color: #090909;
         }

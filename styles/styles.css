@@ -25,8 +25,8 @@ main {
 }
 aside {
     width: 20rem
-    margin: 1rem;
-    border: 1px; solid rgba(0,0,0,0.2); 
+    margin 1rem;
+    border: 1px solid rgba(0, 0, 0 ,0.2); 
     padding: 1rem;
     background-color: #eee;
     color: #333;

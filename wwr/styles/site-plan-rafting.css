@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-:root {
+:root{
     --primary-color: #0c0c0c;
     --sencondary-color: #dda15e;
     --accent1-color: #283618;

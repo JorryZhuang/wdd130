@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Playfair+Display&display=swap');
 h1, h2, h3, h4, h5, h6 {
-    font-family: var (--heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 :root {
@@ -17,9 +17,9 @@ h1, h2, h3, h4, h5, h6 {
     --nav-hover-background-color: #BC6C25;
 }
 body {
-    font-family: var(--paragrapgh-font)
-    max-width (960px)
-    padding (20px)
+    font-family: var(--paragrapgh-font);
+    max-width: 960px;
+    padding: 20px;
 }
 header {
     padding: 20px;

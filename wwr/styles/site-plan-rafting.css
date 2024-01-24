@@ -4,17 +4,17 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 :root{
-    --primary-color: #0c0c0c;
-    --sencondary-color: #dda15e;
-    --accent1-color: #283618;
-    --accent2-color: #606c38;
+    --primary-color:#0c0c0c;
+    --sencondary-color:#dda15e;
+    --accent1-color:#283618;
+    --accent2-color:#606c38;
 
-    --heading-font: 'Nanum Pen Script', cursive;
-    --paragrapgh-font: 'Playfair Display', serif;
-    --nav-background-color: #dda15e;
+    --heading-font:'Nanum Pen Script', serif;
+    --paragrapgh-font:'Playfair Display', serif;
+    --nav-background-color:#dda15e;
     --nav-link-color: #283618;
-    --nav-hover-link-color: #606c38;
-    --nav-hover-background-color: #BC6C25;
+    --nav-hover-link-color:#606c38;
+    --nav-hover-background-color:#BC6C25;
 }
 body {
     font-family: var(--paragrapgh-font);

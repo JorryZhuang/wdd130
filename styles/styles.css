@@ -55,3 +55,8 @@ footer {
     background-color: #eee;
     color: aquamarine;
 }
+aside h2 {
+    position:absolute;
+    top: 47px;
+    left: 150px;
+}

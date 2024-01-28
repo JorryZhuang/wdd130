@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Playfair+Display&display=swap');
+:root{
+    --primary-color: #fefae0;
+    --sencondary-color: #ea9e52;
+    --accent1-color: #283618;
+    --accent2-color: #606c38;
+
+    --heading-font:'Nanum Pen Script', serif;
+    --paragrapgh-font:'Playfair Display', serif;
+    --nav-background-color:#fefae0;
+    --nav-link-color:#dda15e;
+    --nav-hover-link-color:#283618;
+    --nav-hover-background-color:#606c38;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+p{
+    font-family: var(--paragrapgh-font);
+    font-display: var(--nav-hover-link-color);
+}
+.hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.h1 {
+    position: absolute;
+}
+.article {
+    position: absolute;
+    background-color: #fefae0;
+}
+.img {
+    float: right;
+}
+/**Remove the underlines from the social media links./
+/**Consider limiting the entire width of the page to make it easier to design the content./

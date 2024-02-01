@@ -36,6 +36,10 @@ p {
     display: grid;
     align-items: center;
 }
+header,footer,.grid{
+    max-width: 840px;
+    margin:0 auto;
+}
 main{
     display: grid;
     align-items: center;
@@ -59,11 +63,6 @@ main img {
     float: right;
 }
 p { padding: 0;}
-/*footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}*/
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -76,8 +75,4 @@ aside h2{
     position: absolute;
     top: 47px;
     left: 150px;
-}
-header,.grid, footer{
-    max-width: 840px;
-    margin:0 auto;
 }

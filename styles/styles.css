@@ -40,7 +40,7 @@ header,footer,.grid{
 }
 footer{
     position: center;
-    border-top:solid 0.5rem  black;
+    border-top:solid 2rem  black;
 }
 main{
     display: grid;

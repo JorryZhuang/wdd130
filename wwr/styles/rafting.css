@@ -37,7 +37,7 @@ p{
 .img {
     float: right;
 }
-header {
+.header {
 	margin: 1rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr 2fr;
@@ -59,6 +59,7 @@ nav {
 .navigation {
 	display: flex;
 	list-style: none;
+    background-color: #606c38;
 }
 
 .navigation li {

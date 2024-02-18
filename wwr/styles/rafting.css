@@ -37,12 +37,19 @@ p{
 .img {
     float: right;
 }
-.header {
+.grid-container {
 	display: grid;
+    background-color: rgb(203, 157, 248);
+    grid-template-columns: auto auto auto auto auto;
 }
-.navigation {
-    display:grid;
+.grid-item-logo {
+    
+    padding:50px;
+    align-items: center;
+}
+.grid-item-bar {
     
 }
+
 /**Remove the underlines from the social media links./
 /**Consider limiting the entire width of the page to make it easier to design the content./

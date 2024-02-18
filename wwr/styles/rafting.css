@@ -7,7 +7,7 @@
 
     --heading-font:'Nanum Pen Script', serif;
     --paragrapgh-font:'Playfair Display', serif;
-    --nav-background-color:#fefae0;
+    --nav-background-color:#0d0d0c;
     --nav-link-color:#dda15e;
     --nav-hover-link-color:#283618;
     --nav-hover-background-color:#606c38;
@@ -36,8 +36,49 @@ p{
 .img {
     float: right;
 }
-.header{
-    
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
 }
 /**Remove the underlines from the social media links./
 /**Consider limiting the entire width of the page to make it easier to design the content./

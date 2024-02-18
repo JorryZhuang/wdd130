@@ -34,7 +34,7 @@ p {
     display: grid;
     align-items: center;
 }
-header,footer,.grid{
+header,.grid,footer{
     max-width: 840px;
     margin:0 auto;
 }

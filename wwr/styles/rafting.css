@@ -37,18 +37,18 @@ p{
 .img {
     float: right;
 }
-.grid-container {
+.header {
 	display: grid;
     background-color: rgb(203, 157, 248);
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto;
 }
 .grid-item-logo {
-    
+    background-color: rgb(203, 157, 248);
     padding:50px;
     align-items: center;
 }
 .grid-item-bar {
-    
+
 }
 
 /**Remove the underlines from the social media links./

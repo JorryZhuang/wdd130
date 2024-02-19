@@ -40,11 +40,8 @@ p{
 .header {
 	display: grid;
     grid-template-columns: auto;
-}
-.grid-item {
-    background-color: #e1adf7;
     padding: 20px;
-    margin: 20px;
+    background-color: #283618;
 }
 
 /**Remove the underlines from the social media links./

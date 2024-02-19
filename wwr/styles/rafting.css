@@ -39,16 +39,12 @@ p{
 }
 .header {
 	display: grid;
-    background-color: rgb(203, 157, 248);
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
 }
-.grid-item-logo {
-    background-color: rgb(203, 157, 248);
-    padding:50px;
-    align-items: center;
-}
-.grid-item-bar {
-
+.grid-item {
+    background-color: #e1adf7;
+    padding: 20px;
+    margin: 20px;
 }
 
 /**Remove the underlines from the social media links./

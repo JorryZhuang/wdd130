@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Playfair+Display&display=swap');
+button{
+  font-family: 'Nanum Pen Script', serif;
+  font-size: 200%;
+  border-radius: .5rem;
+  border:none;
+}
+button:hover {
+    background-color: pink;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nanum Pen Script', Times, serif;
+    font-size: 1.5rem;
+    background-color: rgb(5, 13, 243);
+    color: azure;
+}
+header{
+    margin:0 auto;
+    width: 650px;
+}
+h1{
+    font-family: 'Nanum Pen Script', serif;
+    margin: 1rem;
+    font-size: 3em;
+    color:rgb(241, 152, 8)
+}
+legend{
+    font-size: 2em;
+}
+form{
+    width:650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5 rem;
+    display:grid;
+}
+label {
+    text-align:center;
+    padding-right:1rem;
+}
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1em;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+}

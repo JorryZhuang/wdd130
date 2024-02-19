@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/quiz.css">
         <title>WDD 130 | HTML Form - Quiz</title>
     </head>
     <body>
@@ -10,9 +11,13 @@
         <main>
             <form>
                 <fieldset>
-                    <legend>Simple Math Question</legend>
-                    <label for="name">Waht is your name?</label>
+                    <legend>Questions</legend>
+                    <div class="form-item">
+                    <label for="name">What is your name?</label>
                     <input type="text" id="q1" name="q1"></label>
+                    </div>
+
+                    <div class="form-item row2">
                     <label for="addition">
                         There are rabbits and ducks in the farm.
                         I don't know how many rabbits and ducks in the farm.
@@ -20,6 +25,9 @@
                         How many rabbits may be in the farm?
                     </label>
                     <textarea id="q2" name="q2" rows="4" placeholder="I only want to know the number of rabbits."></textarea>
+                    </div>
+
+                    <div class="form-item row3">
                     <label for="power">What is the result of 2 to the power 10?</label>
                     <select id="q3" name="q3">
                         <option value="" selected disabled>Choose One...</option>
@@ -28,8 +36,13 @@
                         <option value="1024">1024</option>
                         <option value="1000">1000</option>
                     </select>
+                    </div>
+
+                    <div class="form-item row4">
                     <label for="root">What is the root of 169?</label>
                     <input type="number" id="q4" name="q4">
+                    </div>
+                    
                 </fieldset>
                 <button type="submit">Submit Quiz</button>
             </form>
